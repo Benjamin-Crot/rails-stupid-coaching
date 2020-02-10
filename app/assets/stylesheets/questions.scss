@@ -1,0 +1,43 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body {
+  background: linear-gradient(45deg, #3F51B5, #2196F3);
+  height: 100vh;// Using this variable
+}
+
+.banner {
+  border: 10px;
+  h1 {
+    font-size: 50px;
+    color: white;
+  }
+}
+
+a {
+  font-size : 20px;
+  text-decoration: none;
+  color: white;
+  &:hover {
+    color: black;
+  }
+}
+
+.container {
+  background: white;                         /* White background */
+  padding: 20px;                             /* Internal space */
+  border-radius: 4px;                        /* Small radius */
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  font-size: 16px;
+}
+
+.button {
+  background: #c1c0c0;                        /* White background */
+  padding: 16px;                             /* Internal space */
+  border-radius: 4px;                        /* Small radius */
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  margin-top: 16px;
+  width: 200px;
+
+}
